@@ -1,0 +1,15 @@
+package week3_InheritanceLAB._4_StackOfStrings;
+
+public class Main {
+    public static void main(String[] args) {
+
+        StackOfStrings stackOfStrings = new StackOfStrings();
+        stackOfStrings.push("Da");
+        stackOfStrings.push("Ne");
+        stackOfStrings.push("Moje");
+        stackOfStrings.push("Bi");
+        System.out.println(stackOfStrings.pop());
+        System.out.println(stackOfStrings.peek());
+        System.out.println(stackOfStrings.isEmpty());
+    }
+}
